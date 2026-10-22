@@ -1,4 +1,74 @@
 body{
 	box-sizing:border-box;
 	margin:0%;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+header{
+	position:fixed;
+	background-color:red;
+	top:0;
+	width:98%;
+	height:80px;
+	padding:1%;
+}
+
+nav{
+	background-color:white;
+	position:relative;
+	top:10;
+	height:50px;
+	padding:1%;
+	color:red;
+	font-size:32px;
+	font-weight:bold;
+	border-radius:25px
+}
+
+
+nav  img{
+	border-radius:35px;
+	position:absolute;
+	top:8%;
+	left:5%;
+}
+
+.home{
+	position:absolute;
+	left:18%;
+	top:25%;
+}
+
+.driver{
+	position:absolute;
+	left:28%;
+	top:25%;
+	
+}
+
+.teams{
+	position:absolute;
+	left:40%;
+	top:25%;
+}
+
+.about{	
+	position:absolute;
+	left:50%;
+	top:25%;
+}
+
+.input{
+	width:350px;
+	height:40px;
+	position:absolute;
+	left:70%;
+	top:20%;	
+	border:2px solid red;
+	border-radius:30px;
 }
