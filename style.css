@@ -13,11 +13,12 @@ body{
 
 header{
 	position:fixed;
-	background-color:red;
+	background-color:#32548B;
 	top:0;
 	width:100%;
 	height:70px;
 	z-index:10;
+	border-bottom:2px solid skyblue;
 }
 
 nav{
@@ -55,14 +56,25 @@ nav  img{
 }
 
 .home2{
-	background-color:black;
+	background-color:#32548B;
 	position:absolute;
 	display:none;
-	color:red;
+	color:white;
 	padding:20%;
 	width:650px;
 	height:280px;
 	border-radius:10px;
+	border:1px inset skyblue;
+	font-size:18px;	
+}
+
+.hom4{
+	width:30%;
+	margin:0% 0% 0% 2%
+}
+
+.home1:hover{
+	text-decoration:underline;
 }
 
 .home1:hover + .home2{
@@ -73,11 +85,30 @@ nav  img{
 	display:block;
 }
 
+.hom3{
+	margin:2% 0% 0% 5%
+}
+
+.home3{
+	margin:5% 0% 0% 5%
+}
+
+.detail1{
+	display:none;
+	background-color:skyblue;
+	padding:0.5%;
+	color:#32548B;
+	width:105%;
+}
+
+.detail:hover + .detail1{
+	display:block;
+}
+
 .driver{
 	position:absolute;
 	left:28%;
 	top:32%;
-	
 }
 
 .teams{
@@ -98,7 +129,7 @@ nav  img{
 	position:absolute;
 	left:70%;
 	top:24%;	
-	border:2px solid red;
+	border:2px solid #32548B;
 	border-radius:30px;
 }
 
@@ -127,6 +158,8 @@ i span::after{
 }
 
 .sec1{
+	background-color:#32548B;
+	height:1250px;
 }
 
 .h1{
@@ -137,28 +170,54 @@ i span::after{
 
 
 .div2{
-	background-color:red;
+	background-color:#32548B;
 	padding:1%;
 	color:white;
+	border:3px solid skyblue 
 }
 
 .racer{
-	background-color:red;
+	background-color:ewhi;
 	width:350px;
-	height:350px;
+	height:430px;
 	padding:1%;
-	margin:5% 0% 0% 5%;
+	margin:5% 0% 0% 6%;
 	border-radius:10px;
+	vertical-align:top;
+	border:3px inset skyblue;
+}
+
+.racer1{
+	background-color:#32548B;
+	width:350px;
+	height:430px;
+	padding:1%;
+	margin:5% 0% 0% 18%;
+	border-radius:10px;
+	vertical-align:top;
+	border:3px inset skyblue;
+}
+
+.racer2{
+	background-color:#32548B;
+	width:350px;
+	height:430px;
+	padding:1%;
+	margin:5% 0% 0% 10%;
+	border-radius:10px;
+	vertical-align:top;
+	border:3px inset skyblue;
 }
 
 .rimg{
 	border-radius:20px;
-	width:80%;
+	width:90%;
 	margin:5% 0% 0% 0%
 }
 
 .inline{
 	display:inline-block;
+	
 }
 
 .rd{
@@ -167,4 +226,236 @@ i span::after{
 	padding:1%;
 	border-radius:20px;
 	width:70%
+}
+
+.name{
+	background-color:white;
+	width:70%;
+	font-weight:bold;
+	padding:1%;
+	border-radius:20px;
+	margin:5% 0% 0% 10%
+}
+
+.sec2{
+	background-color:#32548B;
+	height:2150px;
+}
+
+.team1{
+	margin:5% 0% 0% 0%;
+	border:3px solid skyblue;
+}
+
+.timg1{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:90%;
+	background-position-y:45%;
+	background-attachment:fixed;
+	width:98.9%;
+	height:300px;
+	border:10px solid white;
+	background-image:url("https://media.formula1.com/image/upload/c_lfill,w_3392/q_auto/v1740000001/common/f1/2026/mercedes/2026mercedescarright.webp ");
+	background-color:#27F4D2 ;
+}
+
+.timg1:hover{
+	background-image:url("https://i.pinimg.com/736x/d3/04/b7/d304b7a370cb7261f02fdb270d118471.jpg");
+	background-color:white;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:90%;
+	background-position-y:45%;
+	background-attachment:fixed;
+	width:98.9%;
+	height:300px;
+	border:10px solid white;
+}
+
+.timg2{
+	background-image:url("https://media.formula1.com/image/upload/c_lfill,w_3392/q_auto/v1740000001/common/f1/2026/ferrari/2026ferraricarright.webp ");
+	background-color:red ;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:90%;
+	background-position-y:45%;
+	background-attachment:fixed;
+	width:98.9%;
+	height:300px;
+	border:10px solid white;
+}
+
+.timg2:hover{
+	background-image:url("https://i.redd.it/rifzjsyqr6y51.png");
+	background-color:#3459C3;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:90%;
+	background-position-y:45%;
+	background-attachment:fixed;
+	width:98.9%;
+	height:300px;
+	border:10px solid white;
+}
+
+.timg3{
+	background-image:url("https://media.formula1.com/image/upload/c_lfill,w_3392/q_auto/v1740000001/common/f1/2026/redbullracing/2026redbullracingcarright.webp ");
+	background-color:#3671C6 ;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:90%;
+	background-position-y:45%;
+	background-attachment:fixed;
+	width:98.9%;
+	height:300px;
+	border:10px solid white;
+}
+
+.timg3:hover{
+	background-image:url("https://i.pinimg.com/736x/4f/df/af/4fdfaf092e8db342f1056c1685e96abd.jpg");
+	background-color:white;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:90%;
+	background-position-y:45%;
+	background-attachment:fixed;
+	width:98.9%;
+	height:300px;
+	border:10px solid white;
+}
+
+.tinfo{
+	vertical-align:top;
+	height:200px;
+	padding:1%;
+	width:45%;
+	
+}
+
+.tinfo1{
+	background-color:white;
+	border-radius:0px 0px 30px 0px;
+	text-align:left;
+	margin:3% 0% 0% 0%;
+	font-size:16px;
+	padding:1%
+}
+
+.tlogo{
+	background-color:skyblue;
+	width:40%;
+	margin:2% 0% 0% 45%;
+	border-radius:50%;
+}
+
+.tlogo1{
+	background-color:skyblue;
+	width:35%;
+	margin:2% 0% 0% 40%;
+	border-radius:50%;
+}
+
+.tlogo2{
+	background-color:skyblue;
+	width:44%;
+	margin:2% 0% 0% 49%;
+	border-radius:50%;
+}
+
+footer{
+	background-color:skyblue;
+	height:350px;
+	padding:1%;
+	color:white;
+}
+
+.fdiv{
+	vertical-align:top;
+	display:inline-block;
+	padding:1%;
+	width:30%;
+	color:#32548B
+}
+
+.fdiv img{
+	border-radius:10px;
+	width:20%;
+}
+
+.fdiv h1{
+	font-size:54px;
+	width:95%;
+	font-weight:80%;
+	margin:2% 0% 0% 0%;
+}
+
+.font21{
+	font-weight:80%;
+	margin:5% 0% 0% 1%;
+	width:80%;
+}
+
+.fdiv1{
+	vertical-align:top;
+	display:inline-block;
+	padding:1%;
+	width:20%;
+	border-left:3px solid #32548B;
+	margin:1% 0% 0% 0%;
+	color:#32548B;
+}
+
+.fdiv2{
+	vertical-align:top;
+	display:inline-block;
+	padding:1%;
+	width:20%;
+	color:#32548B;
+}
+
+footer div ul{
+	list-style-type:none;
+	margin:0% 0% 0% 5%
+}
+
+.li1{
+	margin:5% 0% 0% 0%;
+	font-size:16px
+}
+
+.li2{
+	margin:3% 0% 0% 0%;
+	font-size:16px
+}
+
+li:hover{
+	text-decoration:underline;
+}
+
+.play{
+	background-color:#32548B;
+	border-radius:20px;
+	width:80%;
+	height:80px;
+	color:white;
+	border:2px;
+	border:3px inset #32548B;
+}
+
+.lplay{
+	font-size:70px;
+	margin-left:10%;
+	display:inline-block;
+}
+.lplay1{
+	font-size:25px;
+	display:inline-block;
+	vertical-align:top;
+	margin:10% 0% 0% 0%
+}
+
+
+.play:hover{
+	background-color:red;
 }
